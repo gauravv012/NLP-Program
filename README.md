@@ -122,12 +122,6 @@ Plaintext
 └── README.md
 
 
-with open("README.md", "w") as f:
-f.write(readme_content)
-
-print("README.md created successfully.")
-
-
 ```text?code_stdout&code_event_index=1
 README.md created successfully.
 
@@ -460,9 +454,4 @@ for ent in doc.ents:
 │   └── 06_Named_Entity_Recognition_spaCy.ipynb
 ├── requirements.txt
 └── README.md
-```
 
----
-
-## 📄 License
-Distributed under the [MIT License](LICENSE).
